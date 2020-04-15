@@ -96,13 +96,31 @@ body{
 
 #profile{
     background: rgb(47, 85, 116);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 80vh;
 }
 
 #profile h1{
-    color: white;
-    text-align: center;
-    margin: 0;
-    padding: 2rem;
+    margin: 4rem 0 0 0;
+    font-size: 50px; 
+    line-height: 55px;
+}
+
+#profile p{
+    font-style: italic;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+#profile-link{
+    text-decoration: none;
+    font-size: 18px;
+   color: white;
 }
 
 @media (min-width: 40rem){
@@ -114,5 +132,12 @@ body{
         max-width: 27%;
         margin: auto auto 3rem auto;
     
+    }
+    .navbar-list{
+        justify-content: flex-end;
+        /* margin-right: 3rem; */
+    }
+    .nav-link{
+        padding-right: 3rem;
     }
 }
