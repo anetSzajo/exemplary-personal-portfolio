@@ -2,3 +2,26 @@
 navbar on top, 
 height of welcome section = height of the viewport,
 */ 
+body{
+    margin: unset;
+    height: 100vh;
+}
+
+#navbar{
+    background: rgb(214, 94, 110);
+    padding: 14px;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
