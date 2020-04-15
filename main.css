@@ -5,11 +5,17 @@ height of welcome section = height of the viewport,
 body{
     margin: unset;
     height: 100vh;
+    font-family: 'Baloo Bhaina 2', cursive;
 }
 
 #navbar{
     background: rgb(214, 94, 110);
-    padding: 14px;
+    padding: 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .navbar-list{
@@ -24,4 +30,34 @@ body{
     text-decoration: none;
     color: white;
     font-size: larger;
+}
+
+/* main{
+    padding-top: 62px;
+
+} */
+
+#welcome-section{
+    background: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#welcome-section h1{
+    font-size: 65px;
+    line-height: 55px;
+    margin: 14px;
+}
+
+#welcome-section h2{
+    color: rgb(214, 94, 110);
+    font-size: 22px;
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
 }
