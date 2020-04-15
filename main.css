@@ -128,7 +128,15 @@ body{
 
 #github_logo{
     margin-right: 8px;
+}
 
+footer{
+    background: rgb(47, 85, 116);
+    border-top: 4px solid rgb(214, 94, 110);
+    text-align: left;
+    padding: 5px;
+    color: white;
+    font-size: 13px;
 }
 
 @media (min-width: 40rem){
