@@ -115,12 +115,20 @@ body{
     font-style: italic;
     font-size: 26px;
     line-height: 36px;
+    margin-bottom: 4rem;
 }
 
 #profile-link{
     text-decoration: none;
     font-size: 18px;
-   color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#github_logo{
+    margin-right: 8px;
+
 }
 
 @media (min-width: 40rem){
